@@ -1,0 +1,19 @@
+p{
+    font-size: 25px;
+    color: rgb(10, 236, 225);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(43, 248, 238);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 207, 114);
+}
+h2{
+    color: rgb(69, 209, 214);
+}
+button{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(0, 0, 0);
+}

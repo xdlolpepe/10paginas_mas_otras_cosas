@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios con Tipos de Entrada y Restricciones</title>
+</head>
+<body>
+    <h2>Formulario 1:</h2>
+    <form>
+        <input type="checkbox" checked disabled>
+        <input type="color">
+        <input type="date" min="2023-01-01" max="2023-12-31">
+        <input type="email" required>
+        <input type="number" min="1" max="100" step="1">
+        <input type="text" maxlength="50">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Formulario 2:</h2>
+    <form>
+        <input type="datetime-local">
+        <input type="file" accept="image/*">
+        <input type="hidden" value="secreto">
+        <input type="password" required>
+        <input type="range" min="0" max="10" step="0.5" value="5">
+        <input type="search" placeholder="Buscar">
+        <input type="reset" value="Restablecer">
+    </form>
+
+    <h2>Formulario 3:</h2>
+    <form>
+        <input type="radio" name="gender" value="male" checked>
+        <input type="radio" name="gender" value="female">
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <input type="url" size="30">
+        <input type="week" min="2023-W01" max="2023-W52">
+        <input type="button" value="Botón">
+    </form>
+</body>
+</html>

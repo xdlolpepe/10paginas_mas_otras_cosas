@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registro y consulta de computadoras</title>
+  </head>
+  <body>
+    <h1>Registro y consulta de computadoras</h1>
+    <form>
+      <fieldset>
+        <legend>Registrar nueva computadora</legend>
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca"><br><br>
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo"><br><br>
+        <label for="procesador">Procesador:</label>
+        <input type="text" id="procesador" name="procesador"><br><br>
+        <label for="ram">Memoria RAM:</label>
+        <input type="text" id="ram" name="ram"><br><br>
+        <button type="submit">Registrar</button>
+      </fieldset>
+    </form>
+    <hr>
+    <h2>Computadoras registradas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Procesador</th>
+          <th>Memoria RAM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dell</td>
+          <td>Inspiron 15</td>
+          <td>Intel Core i5</td>
+          <td>8 GB</td>
+        </tr>
+        <tr>
+          <td>Lenovo</td>
+          <td>IdeaPad 5</td>
+          <td>AMD Ryzen 7</td>
+          <td>16 GB</td>
+        </tr>
+        <tr>
+          <td>HP</td>
+          <td>Pavilion Gaming</td>
+          <td>Intel Core i7</td>
+          <td>12 GB</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -3,6 +3,13 @@
   <head>
     <title><b> Página de inicio de sesión<b></title>
       <link rel="stylesheet" href="estilos.css">
+    
+      <script>
+        function mostrarMensaje() {
+            alert("Inicio de secion correcto");
+        }
+    </script>
+    
     <style>
       .image-container{
       display: flex;
@@ -67,7 +74,7 @@
       <input type="text" id="username" name="username">
       <label for="password">Contraseña</label>
       <input type="password" id="password" name="password">
-      <button type="submit"><b>Iniciar sesión</b></button>
+      <button type="submit" onclick="mostrarMensaje()"><b>Iniciar sesión</b></button>
 
       <button><a href="5Registrarse.html">Registrarse</a></button>
 

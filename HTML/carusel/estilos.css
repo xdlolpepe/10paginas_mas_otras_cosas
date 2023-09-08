@@ -1,0 +1,19 @@
+/* Estilos para el carrusel */
+.carrusel {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* Ancho del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Estilos para los botones */
+button {
+    display: block;
+    margin: 10px auto;
+}
